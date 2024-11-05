@@ -122,7 +122,7 @@ class Discussion:
 
     @property
     def initial_moderator_message(self) -> str:
-        return f"You are playing word game. You need to reply with ONE WORD ONLY which starts from last letter of the word from previous step: {self.topic}. In brackets explain what this word means shortly and how it's related to you area of experise. Do not put any explanations! Do not repeat word that were used before"
+        return f"You are playing word game. You need to reply with ONE WORD ONLY which starts from last letter of the word from previous step: {self.topic}. In brackets explain what this word means shortly and how it's related to you area of expertise. Do not put any explanations! Do not repeat word that were used before"
 
     def _get_response(self, member: DiscussionMember) -> BotMessage:
         """
